@@ -71,3 +71,6 @@ data/
 
 plots/
 !figure_*.png
+
+!*.pdf
+
