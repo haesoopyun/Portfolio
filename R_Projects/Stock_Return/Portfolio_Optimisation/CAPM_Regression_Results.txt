@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = Portfolio_Return ~ Return, data = capm_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.22311 -0.10369 -0.03162  0.03447  0.61966 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  0.03059    0.02447   1.250   0.2163  
+Return       1.47595    0.69349   2.128   0.0376 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.182 on 57 degrees of freedom
+Multiple R-squared:  0.07362,	Adjusted R-squared:  0.05736 
+F-statistic:  4.53 on 1 and 57 DF,  p-value: 0.03765
+
